@@ -1,0 +1,43 @@
+/*.carousel-control-prev{
+    right: 0;
+}*/
+.carousel-control-next{
+    left: 4%;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 92% !important;
+    bottom: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182% !important;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+.c_indicators {
+    position: absolute;
+    right: 20% !important;
+    bottom: 75% !important;
+    left: 6%;
+    z-index: 2;
+    display: block;
+    justify-content: center;
+    padding: 0;
+    margin-right: 80% !important;
+    margin-bottom: 1rem;
+    margin-left: -4% !important;
+    list-style: none;
+}
+.c_indicators [data-bs-target] {
+    
+    width: 15px !important;
+    height: 15px !important;
+    
+}
